@@ -1,5 +1,4 @@
-
-The purpose of this query is to make sure that the formatting of your output matches exactly the formatting of our auto-grading script.
+List all distinct types of titles ordered by type.
 SELECT distinct(type) FROM titles ORDER BY type;
 
 List the longest title of each type along with the runtime minutes.
